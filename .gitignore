@@ -1,0 +1,147 @@
+# ============================================================
+# Oracle Forms 12c
+# ============================================================
+*.fmb.bak
+*.fmb~
+*.fmt
+*.fmx
+*.mmb.bak
+*.mmb~
+*.mmt
+*.mmx
+*.olb
+*.pll.bak
+*.pll~
+*.plx
+*.rdf.bak
+*.rdf~
+
+# ============================================================
+# Oracle Reports 12c
+# ============================================================
+*.rep
+*.rdf
+*.jsp.bak
+*.xml.bak
+
+# ============================================================
+# PL/SQL / SQL*Plus
+# ============================================================
+*.log
+*.lst
+spool*.txt
+afiedt.buf
+
+# ============================================================
+# Oracle Database / General
+# ============================================================
+*.dmp
+*.exp
+*.trc
+*.trm
+*.aud
+*.dbf
+*.ora.bak
+*.bak
+*.tmp
+*.temp
+tnsnames.ora
+sqlnet.ora
+listener.ora
+wallet/
+cwallet.sso
+ewallet.p12
+
+# ============================================================
+# Credentials & Secrets
+# ============================================================
+*.env
+.env
+.env.*
+secrets.*
+credentials.*
+*_credentials.*
+*password*
+*passwd*
+*secret*
+connection_strings.*
+db_config.*
+tns_admin/
+
+# ============================================================
+# IDE & Editor Config
+# ============================================================
+# JDeveloper / Oracle IDE
+.jdeveloper/
+*.jpr.bak
+*.jws.bak
+classes/
+deploy/
+
+# VS Code
+.vscode/
+
+# IntelliJ / IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Toad for Oracle
+*.tdo
+*.tws
+Toad*.ini
+
+# SQL Developer
+*.sdi
+SqlDeveloper/
+
+# ============================================================
+# OS-Generated Files
+# ============================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ============================================================
+# Logs & Traces
+# ============================================================
+*.log.*
+logs/
+trace/
+*.trc.*
+alert_*.log
+diagnostic/
+
+# ============================================================
+# Compiled / Build Artifacts
+# ============================================================
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+target/
+build/
+out/
+dist/
